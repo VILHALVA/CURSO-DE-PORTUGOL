@@ -1,5 +1,5 @@
 # CURSO-DE-ALGORITMO
-👨‍⚖️CURSO DE LÓGICA DE PROGRAMAÇÃO COM PYTHON: @cursoemvideo
+👨‍⚖️CURSO DE LÓGICA DE PROGRAMAÇÃO COM PYTHON.
 
 <img src="https://www.politize.com.br/wp-content/uploads/2022/03/Criac%CC%A7a%CC%83o-de-destaques-3-1.png" align="right" width="250">
 
