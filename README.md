@@ -1,5 +1,5 @@
 # CURSO-DE-ALGORITMO
-👨‍⚖️CURSO DE LÓGICA DE PROGRAMAÇÃO COM PYTHON.
+👨‍⚖️CURSO DE LÓGICA DE PROGRAMAÇÃO COM PYTHON E PORTUGOL.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
 [![GitHub Repo stars](https://img.shields.io/badge/CURSO-COMPRETO-03A9F4?logo=youtube)](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV) <br>
