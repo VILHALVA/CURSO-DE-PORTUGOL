@@ -10,7 +10,7 @@
 <img src="https://www.politize.com.br/wp-content/uploads/2022/03/Criac%CC%A7a%CC%83o-de-destaques-3-1.png" align="center" width="250"> <br>
 
 # OBSERVAÇÃO:
-* Na época que fiz esse curso, não tinha computador. É por isso que o fiz primeiro em Python (Estudei Python antes de Algoritmos). Consegui fazer o curso em Python numa boa no meu celular.
+* Na época que fiz esse curso, não tinha computador. É por isso que o fiz primeiro em Python (Estudei Python antes de Algoritmos). Consegui fazer o curso em Python numa boa usando o celular.
 * Hoje (22/05/2023) Decedir liberar também o mesmo curso em Portugol.
 * Vale salientar que usei o ChatGPT para fazer a versão em Portugol. O mesmo foi bazeado no Python (Pode ter ocorrido de algumas palavras não terem sido traduzidas direito - Por isso recomendo que o faça em Python - Portugol é apenas para comparação - Caso queira usar, não se esqueça de fazer os ajustes).
 * Não fiz o curso de Portugol novamente porque já sei programar em várias linguagens e não tenho tempo. Mas para quem nunca programou na vida, é o primeiro passo.
