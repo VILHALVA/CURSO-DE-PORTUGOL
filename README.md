@@ -448,12 +448,203 @@ public class Pessoa {
 Os quatro pilares da programação orientada a objetos são:
 
 * **1. Encapsulamento:** É o princípio de manter o comportamento interno e a estrutura de um objeto ocultos ao mundo externo e ao código que é escrito fora da classe. O objetivo desse pilar é esconder a complexidade dos objetos e proteger o seu estado interno de manipulações indevidas. Isso é feito definindo-se níveis de acesso aos métodos e às variáveis de uma classe, como público, privado ou protegido.
+````
+// Exemplo de encapsulamento em Java
+public class Pessoa {
+    private String nome;
+    private int idade;
+    
+    // Método getter para o nome
+    public String getNome() {
+        return nome;
+    }
+    
+    // Método setter para o nome
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
+    // Método getter para a idade
+    public int getIdade() {
+        return idade;
+    }
+    
+    // Método setter para a idade
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+    
+    // Método main para teste
+    public static void main(String[] args) {
+        Pessoa pessoa = new Pessoa();
+        
+        // Usando os métodos getter e setter
+        pessoa.setNome("João");
+        pessoa.setIdade(25);
+        
+        System.out.println("Nome: " + pessoa.getNome());
+        System.out.println("Idade: " + pessoa.getIdade());
+    }
+}
+````
+Neste exemplo, a classe Pessoa possui duas variáveis de instância nome e idade, que são marcadas como private. Isso significa que essas variáveis só podem ser acessadas dentro da própria classe.
+
+Em seguida, a classe fornece métodos getter e setter para acessar e modificar essas variáveis. Os métodos getter permitem obter o valor das variáveis, enquanto os métodos setter permitem definir novos valores para as variáveis.
+
+Dentro do método main, criamos uma instância da classe Pessoa e utilizamos os métodos setter para atribuir valores ao nome e à idade da pessoa. Em seguida, utilizamos os métodos getter para obter os valores e exibimos na saída do console.
+
+Ao utilizar o encapsulamento, estamos protegendo os detalhes internos da classe e permitindo um acesso controlado aos seus membros. Isso ajuda a manter a integridade dos dados e facilita a manutenção do código, permitindo uma maior flexibilidade na implementação interna da classe.
 
 * **2. Herança:** É o processo de criar uma nova classe baseada em uma classe existente - a nova classe herda os atributos e métodos da classe pai. A herança permite que uma classe filha aproveite a implementação de uma classe mãe. Isso torna o código mais fácil de escrever, já que a classe filha não precisa redefinir os métodos que já foram criados na classe mãe. A herança também ajuda a organizar as classes em hierarquias.
+````
+// Classe base (superclasse)
+class Animal {
+    private String nome;
+    
+    public Animal(String nome) {
+        this.nome = nome;
+    }
+    
+    public void emitirSom() {
+        System.out.println("O animal está emitindo um som.");
+    }
+    
+    public void dormir() {
+        System.out.println("O animal está dormindo.");
+    }
+    
+    public String getNome() {
+        return nome;
+    }
+}
+
+// Classe derivada (subclasse)
+class Cachorro extends Animal {
+    public Cachorro(String nome) {
+        super(nome);
+    }
+    
+    public void latir() {
+        System.out.println("O cachorro está latindo.");
+    }
+}
+
+// Exemplo de herança em Java
+public class ExemploHeranca {
+    public static void main(String[] args) {
+        Cachorro cachorro = new Cachorro("Bob");
+        
+        System.out.println("Nome do cachorro: " + cachorro.getNome());
+        cachorro.emitirSom();
+        cachorro.latir();
+        cachorro.dormir();
+    }
+}
+````
+Neste exemplo, temos uma classe base chamada Animal, que possui um atributo nome, um construtor e alguns métodos. A classe Animal é a superclasse.
+
+Em seguida, temos uma classe derivada chamada Cachorro, que herda da classe Animal. A classe Cachorro possui seu próprio construtor e um método adicional chamado latir. A classe Cachorro é a subclasse.
+
+No método main, criamos uma instância da classe Cachorro chamada cachorro. Podemos chamar métodos tanto da classe Animal quanto da classe Cachorro usando essa instância.
+
+Ao executar o código, você verá a saída que exibe o nome do cachorro, seguido por "O animal está emitindo um som.", "O cachorro está latindo." e "O animal está dormindo.". Isso demonstra o conceito de herança, onde a classe Cachorro herda os métodos e atributos da classe Animal e também adiciona seu próprio comportamento específico.
+
+A herança permite reutilizar código, criar relacionamentos entre classes e criar hierarquias de classes mais complexas. Ela é um dos princípios fundamentais da programação orientada a objetos.
 
 * **3. Polimorfismo:** É a capacidade de um objeto se comportar de várias maneiras diferentes. O objetivo do polimorfismo é escrever um código mais flexível e genérico. O polimorfismo pode ocorrer de diferentes maneiras: por sobrecarga de método (quando um método tem o mesmo nome, mas diferentes parâmetros), por sobreposição de método (quando um método tem o mesmo nome e parâmetros em diferentes classes da hierarquia) e por interfaces (quando várias classes compartilham um conjunto comum de métodos).
+````
+// Classe base (superclasse)
+abstract class Animal {
+    public abstract void emitirSom();
+}
+
+// Classes derivadas (subclasses)
+class Cachorro extends Animal {
+    public void emitirSom() {
+        System.out.println("O cachorro está latindo.");
+    }
+}
+
+class Gato extends Animal {
+    public void emitirSom() {
+        System.out.println("O gato está miando.");
+    }
+}
+
+// Exemplo de polimorfismo em Java
+public class ExemploPolimorfismo {
+    public static void main(String[] args) {
+        Animal cachorro = new Cachorro();
+        Animal gato = new Gato();
+        
+        cachorro.emitirSom();  // Saída: O cachorro está latindo.
+        gato.emitirSom();      // Saída: O gato está miando.
+    }
+}
+````
+Neste exemplo, temos uma classe base abstrata chamada Animal, que possui um método abstrato emitirSom(). Essa classe base é estendida por duas classes derivadas concretas: Cachorro e Gato. Ambas as classes derivadas implementam o método emitirSom() de acordo com o seu comportamento específico.
+
+No método main, criamos instâncias das classes Cachorro e Gato, mas as referenciamos como objetos da classe base Animal. Isso permite que tratemos esses objetos de forma polimórfica, ou seja, podemos usar a mesma interface (método emitirSom()) para objetos de diferentes classes.
+
+Ao chamar o método emitirSom() nos objetos cachorro e gato, o comportamento apropriado é invocado de acordo com o tipo real do objeto. Isso demonstra o polimorfismo, onde objetos de diferentes classes respondem de maneira diferente ao mesmo método.
+
+O polimorfismo permite escrever código mais flexível, extensível e reutilizável, pois podemos tratar objetos de diferentes classes de maneira uniforme, utilizando uma interface comum.
 
 * **4. Abstração:** É a capacidade de omitir informações detalhadas e irrelevantes e concentrar-se apenas nos aspectos importantes do objeto. O objetivo da abstração é estabelecer uma forma mais simples e genérica de se pensar nos objetos. Isso é feito identificando os aspectos mais importantes de um objeto e modelando-o em uma classe. A abstração pode ser alcançada por meio de classes abstratas e interfaces, que permitem a especificação dos métodos e atributos que uma classe deve implementar sem fornecer uma implementação real.
+````
+// Classe abstrata
+abstract class Animal {
+    private String nome;
+    
+    public Animal(String nome) {
+        this.nome = nome;
+    }
+    
+    // Método abstrato
+    public abstract void emitirSom();
+    
+    // Método concreto
+    public void dormir() {
+        System.out.println("O animal está dormindo.");
+    }
+    
+    // Getter para o nome
+    public String getNome() {
+        return nome;
+    }
+}
+
+// Classe concreta
+class Cachorro extends Animal {
+    public Cachorro(String nome) {
+        super(nome);
+    }
+    
+    public void emitirSom() {
+        System.out.println("O cachorro está latindo.");
+    }
+}
+
+// Exemplo de abstração em Java
+public class ExemploAbstracao {
+    public static void main(String[] args) {
+        Cachorro cachorro = new Cachorro("Rex");
+        
+        System.out.println("Nome do cachorro: " + cachorro.getNome());
+        cachorro.emitirSom();  // Saída: O cachorro está latindo.
+        cachorro.dormir();     // Saída: O animal está dormindo.
+    }
+}
+````
+Neste exemplo, temos uma classe abstrata chamada Animal, que contém um método abstrato emitirSom(). Essa classe abstrata também possui um método concreto dormir() e um atributo nome.
+
+A classe concreta Cachorro estende a classe abstrata Animal e implementa o método abstrato emitirSom() de acordo com o comportamento específico do cachorro.
+
+No método main, criamos uma instância da classe Cachorro chamada cachorro. Podemos chamar o método emitirSom() e o método dormir() da classe Animal usando essa instância.
+
+A classe abstrata Animal serve como um modelo genérico para representar animais e define a estrutura básica comum para todas as classes derivadas. As classes concretas, como Cachorro, implementam os detalhes específicos do comportamento.
+
+A abstração nos permite representar conceitos genéricos e definir comportamentos comuns em classes abstratas, enquanto as classes concretas fornecem a implementação específica desses comportamentos. A abstração nos ajuda a criar um código mais flexível, reutilizável e de fácil manutenção.
 
 ## 13) OS MÉTODOS GETTERS, SETTERS E CONSTRUTOR:
 Os métodos getters e setters são utilizados em programação orientada a objetos para acessar e modificar os atributos de um objeto de classe. Os getters, ou acessores, são métodos que retornam o valor de um atributo enquanto os setters, ou modificadores, são métodos que definem o valor de um atributo. Eles são importantes para manter a privacidade e a segurança dos dados de uma classe, garantindo que o acesso aos atributos seja controlado.
