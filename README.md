@@ -20,7 +20,8 @@
 * ✅ Vetores (Variaveis Compostas 1)
 * ✅ Matrizes (Variaveis Compostas 2)
 
-# 📚SE APROFUDANDO MUITO MAIS:
+![](https://i.imgur.com/waxVImv.png)
+# 📚SE APROFUDANDO MAIS:
 ## 1 - OPERADORES ARITMÉTICOS:
 
 | SINAL | USADO |
