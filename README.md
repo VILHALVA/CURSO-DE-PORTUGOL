@@ -9,14 +9,7 @@
 
 <img src="https://cdn-icons-png.flaticon.com/256/9670/9670741.png" align="center" width="250"> <br>
 
-# 👨‍💻OBSERVAÇÃO:
-* 🔰 Na época que fiz esse curso, não tinha computador. É por isso que o fiz primeiro em Python (Estudei Python antes de Algoritmos). Consegui fazer o curso em Python numa boa usando o celular.
-* 🔰 Hoje (22/05/2023) Decedir liberar também o mesmo curso em Portugol.
-* 🔰 Vale salientar que fiz a tradução baseada no Python (Pode ter ocorrido de algumas palavras não terem sido traduzidas corretamente - Por isso recomendo que o faça em Python - Portugol é apenas para comparação - Caso queira usar, não se esqueça de fazer os ajustes).
-* 🔰 Não fiz o curso de Portugol novamente porque já sei programar em várias linguagens e não tenho tempo.
-* ✅ [BAIXE OS PACOTES DO CURSO AQUI](https://www.cursoemvideo.com/curso/curso-de-algoritmo/)
-
-# [TEMÁTICAS](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
+# 👨‍💻[TEMÁTICAS](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
 * ✅ [USANDO O SCRATCH](https://scratch.mit.edu/)
 * ✅ Variáveis simples
 * ✅ Operadores (Aritméticos, Lógicos e Relacionais)
@@ -27,7 +20,7 @@
 * ✅ Vetores (Variaveis Compostas 1)
 * ✅ Matrizes (Variaveis Compostas 2)
 
-# 📚SE APROFUDANDO MAIS:
+# 📚SE APROFUDANDO MUITO MAIS:
 ## 1 - OPERADORES ARITMÉTICOS:
 
 | SINAL | USADO |
