@@ -27,7 +27,7 @@
 * ✅ Vetores (Variaveis Compostas 1)
 * ✅ Matrizes (Variaveis Compostas 2)
 
-# 📚SE APROFUNDANDO MAIS:
+# 📚SE APROFUDANDO MAIS:
 ## 1 - OPERADORES ARITMÉTICOS:
 
 | SINAL | USADO |
@@ -348,7 +348,7 @@ switch (nota) {
 
 Com essas estruturas condicionais, os programadores podem controlar o fluxo do programa de maneira muito mais eficiente, garantindo que cada bloco de código seja executado apenas quando necessário.
 
-## 9) ESTRUTURAS DE REPETIÇÃO:
+## 9) ESTRUTURA DE REPETIÇÃO:
 As estruturas de repetição, também conhecidas como laços ou loops, são utilizadas em programação para executar um conjunto de instruções repetidamente, enquanto uma condição específica é satisfeita. Existem três principais tipos de loops em programação:
 
 * **1. O loop while:** O while é utilizado quando não se sabe o número exato de vezes que as instruções devem ser repetidas. A condição é testada antes de cada iteração do loop, e enquanto a condição permanecer verdadeira, o loop irá executar as instruções. A estrutura do loop while é a seguinte:
@@ -383,21 +383,24 @@ As funções podem ser criadas em quase todas as linguagens de programação. Em
 
 Por exemplo, vamos examinar o seguinte trecho de código em Python que ilustra uma função simples que soma dois números e retorna o resultado:
 ````
-def soma(a, b):
+// CÓDIGO EM PYTHON:
+def soma(a, b): // Definindo uma função.
    resultado = a + b
    return resultado
+   
+v1 = soma(4,8) // Chamando a função soma com os valores 4,8 (=12).
+print(v1)
 ````
 
 Neste exemplo de código, a função "soma" é criada com dois argumentos, "a" e "b", que serão usados para realizar a operação matemática. Dentro da função, a operação é realizada e o resultado é armazenado na variável "resultado". A função retorna o valor de "resultado" para o código que a chamou.
 ````
-// Definindo uma função que retorna o dobro de um número
+// Definindo uma função que retorna o dobro de um número em JavaScript
 function dobrarNumero(numero) {
     return numero * 2;
 }
 
 // Chamando a função e armazenando o resultado em uma variável
 var resultado = dobrarNumero(5);
-
 console.log(resultado);  // Saída: 10
 ````
 Neste exemplo, temos uma função chamada dobrarNumero que recebe um parâmetro chamado numero. Dentro da função, multiplicamos o número por 2 e retornamos o resultado usando a palavra-chave return.
