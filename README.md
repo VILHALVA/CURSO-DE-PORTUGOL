@@ -389,6 +389,22 @@ def soma(a, b):
 ````
 
 Neste exemplo de código, a função "soma" é criada com dois argumentos, "a" e "b", que serão usados para realizar a operação matemática. Dentro da função, a operação é realizada e o resultado é armazenado na variável "resultado". A função retorna o valor de "resultado" para o código que a chamou.
+````
+// Definindo uma função que retorna o dobro de um número
+function dobrarNumero(numero) {
+    return numero * 2;
+}
+
+// Chamando a função e armazenando o resultado em uma variável
+var resultado = dobrarNumero(5);
+
+console.log(resultado);  // Saída: 10
+````
+Neste exemplo, temos uma função chamada dobrarNumero que recebe um parâmetro chamado numero. Dentro da função, multiplicamos o número por 2 e retornamos o resultado usando a palavra-chave return.
+
+Em seguida, chamamos a função dobrarNumero passando o valor 5 como argumento. O resultado retornado pela função é armazenado na variável resultado e, em seguida, imprimimos o valor de resultado no console.
+
+Esses são apenas exemplos simples de funções em JavaScript. As funções em JavaScript são bastante flexíveis e podem ser usadas para executar tarefas complexas, manipular dados, interagir com o ambiente do navegador e muito mais.
 
 As funções podem ser uma ótima maneira de tornar o código mais fácil de ler e manter, ao mesmo tempo que aumentam a modularidade e a reutilização do código.
 
@@ -674,3 +690,61 @@ public Pessoa(String nome, int idade) {
 ````
 
 Neste caso, o construtor recebe dois argumentos (o nome e a idade da pessoa) e inicializa os atributos correspondentes. O "this" é utilizado para referenciar o objeto atual que está sendo criado.
+````
+public class Pessoa {
+    private String nome;
+    private int idade;
+    
+    // Construtor
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+    
+    // Getter para o nome
+    public String getNome() {
+        return nome;
+    }
+    
+    // Setter para o nome
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
+    // Getter para a idade
+    public int getIdade() {
+        return idade;
+    }
+    
+    // Setter para a idade
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+    
+    public static void main(String[] args) {
+        // Criando uma instância de Pessoa
+        Pessoa pessoa = new Pessoa("João", 30);
+        
+        // Utilizando os getters para obter os valores
+        System.out.println("Nome: " + pessoa.getNome());
+        System.out.println("Idade: " + pessoa.getIdade());
+        
+        // Utilizando os setters para alterar os valores
+        pessoa.setNome("Maria");
+        pessoa.setIdade(25);
+        
+        // Utilizando os getters novamente para obter os novos valores
+        System.out.println("Nome atualizado: " + pessoa.getNome());
+        System.out.println("Idade atualizada: " + pessoa.getIdade());
+    }
+}
+````
+Neste exemplo, a classe Pessoa possui dois atributos privados: nome e idade. Em seguida, temos um construtor que recebe o nome e a idade como parâmetros e os atribui aos atributos correspondentes.
+
+A classe Pessoa também possui métodos getters e setters para acessar e modificar os valores dos atributos. Os getters retornam os valores dos atributos, enquanto os setters permitem alterar os valores.
+
+No método main, criamos uma instância da classe Pessoa chamada pessoa e passamos o nome "João" e a idade 30 para o construtor. Em seguida, utilizamos os getters para obter os valores dos atributos e os imprimimos na saída do console.
+
+Depois, utilizamos os setters para alterar o nome para "Maria" e a idade para 25. Utilizamos novamente os getters para obter os novos valores e os imprimimos na saída do console.
+
+Dessa forma, os métodos getters e setters permitem acessar e modificar os atributos da classe de forma controlada, mantendo a encapsulação e permitindo um código mais seguro e flexível.
