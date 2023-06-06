@@ -10,15 +10,15 @@
 <img src="https://cdn-icons-png.flaticon.com/256/9670/9670741.png" align="center" width="250"> <br>
 
 # 👨‍💻[TEMÁTICAS](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
-* ✅ [USANDO O SCRATCH](https://scratch.mit.edu/)
-* ✅ Variáveis simples
-* ✅ Operadores (Aritméticos, Lógicos e Relacionais)
-* ✅ Estruturas condicionais
-* ✅ Estrutura de repetição for (Para)
-* ✅ Estrutura de repetição while (Enquanto)
-* ✅ Procedimentos (Funções)
-* ✅ Vetores (Variaveis Compostas 1)
-* ✅ Matrizes (Variaveis Compostas 2)
+* ✅ [USANDO O SCRATCH](HTTPS://SCRATCH.MIT.EDU/)
+* ✅ VARIÁVEIS SIMPLES
+* ✅ OPERADORES (ARITMÉTICOS, LÓGICOS E RELACIONAIS)
+* ✅ ESTRUTURAS CONDICIONAIS
+* ✅ ESTRUTURA DE REPETIÇÃO FOR (PARA)
+* ✅ ESTRUTURA DE REPETIÇÃO WHILE (ENQUANTO)
+* ✅ PROCEDIMENTOS (FUNÇÕES)
+* ✅ VETORES (VARIAVEIS COMPOSTAS 1)
+* ✅ MATRIZES (VARIAVEIS COMPOSTAS 2)
 
 ![](https://i.imgur.com/waxVImv.png)
 # 📚SE APROFUDANDO MAIS:
