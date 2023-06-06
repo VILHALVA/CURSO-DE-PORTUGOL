@@ -10,7 +10,7 @@
 <img src="https://cdn-icons-png.flaticon.com/256/9670/9670741.png" align="center" width="250"> <br>
 
 # 👨‍💻[TEMÁTICAS](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
-* ✅ [USANDO O SCRATCH](HTTPS://SCRATCH.MIT.EDU/)
+* ✅ [USANDO O SCRATCH](https://scratch.mit.edu/)
 * ✅ VARIÁVEIS SIMPLES
 * ✅ OPERADORES (ARITMÉTICOS, LÓGICOS E RELACIONAIS)
 * ✅ ESTRUTURAS CONDICIONAIS
