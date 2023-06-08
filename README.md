@@ -499,7 +499,10 @@ public class Pessoa {
 Os quatro pilares da programação orientada a objetos são:
 
 #### ( 6.1.1 ) ABSTRAÇÃO:
-É a capacidade de omitir informações detalhadas e irrelevantes e concentrar-se apenas nos aspectos importantes do objeto. O objetivo da abstração é estabelecer uma forma mais simples e genérica de se pensar nos objetos. Isso é feito identificando os aspectos mais importantes de um objeto e modelando-o em uma classe. A abstração pode ser alcançada por meio de classes abstratas e interfaces, que permitem a especificação dos métodos e atributos que uma classe deve implementar sem fornecer uma implementação real.
+É a capacidade de omitir informações detalhadas e irrelevantes e concentrar-se apenas nos aspectos importantes do objeto.
+
+##### ( 6.1.1.1 ) OBJETIVO:
+O objetivo da abstração é estabelecer uma forma mais simples e genérica de se pensar nos objetos. Isso é feito identificando os aspectos mais importantes de um objeto e modelando-o em uma classe. A abstração pode ser alcançada por meio de classes abstratas e interfaces, que permitem a especificação dos métodos e atributos que uma classe deve implementar sem fornecer uma implementação real.
 ````
 // Classe abstrata
 abstract class Animal {
@@ -549,11 +552,50 @@ Neste exemplo, temos uma classe abstrata chamada Animal, que contém um método 
 A classe concreta Cachorro estende a classe abstrata Animal e implementa o método abstrato emitirSom() de acordo com o comportamento específico do cachorro.
 No método main, criamos uma instância da classe Cachorro chamada cachorro. Podemos chamar o método emitirSom() e o método dormir() da classe Animal usando essa instância.
 A classe abstrata Animal serve como um modelo genérico para representar animais e define a estrutura básica comum para todas as classes derivadas. As classes concretas, como Cachorro, implementam os detalhes específicos do comportamento.
+
 A abstração nos permite representar conceitos genéricos e definir comportamentos comuns em classes abstratas, enquanto as classes concretas fornecem a implementação específica desses comportamentos. A abstração nos ajuda a criar um código mais flexível, reutilizável e de fácil manutenção.
 As classes abstratas são utilizadas como base para outras classes, servindo como modelos ou blueprints para a criação de objetos mais específicos. Elas contêm métodos abstratos, que são métodos sem implementação definida na classe abstrata, e também podem conter métodos concretos com implementação.
+
 Uma classe abstrata não pode ser instanciada diretamente porque ela é considerada incompleta. Ou seja, ela possui métodos abstratos que não possuem uma implementação definida na classe abstrata. Dessa forma, criar um objeto a partir de uma classe abstrata seria problemático, já que não teríamos uma implementação completa para todos os métodos necessários.
+
 No entanto, as classes abstratas podem ser herdadas por outras classes, permitindo que essas classes filhas forneçam uma implementação concreta para os métodos abstratos. Essas classes filhas devem implementar todos os métodos abstratos herdados da classe abstrata, tornando-as instanciáveis.
 A ideia por trás das classes abstratas é fornecer uma estrutura comum e definir um contrato para as classes derivadas. Elas são projetadas para serem estendidas e especializadas por meio da herança, permitindo a criação de objetos mais específicos e completos. Ao impedir a instanciação direta das classes abstratas, garantimos que todas as subclasses sigam o contrato definido pela classe abstrata e forneçam as implementações necessárias para todos os métodos abstratos.
+
+##### ( 6.1.1.2 ) O QUE É INTERFACE?:
+A interface é um elemento fundamental na programação orientada a objetos (POO) e faz parte do pilar da Abstração. Ela permite definir um contrato ou um conjunto de métodos que uma classe deve implementar. Em outras palavras, uma interface estabelece um conjunto de funcionalidades que uma classe concreta deve ter.
+
+Ao utilizar interfaces, podemos estabelecer um contrato comum entre diferentes classes, permitindo que elas sejam intercambiáveis em determinados contextos. Isso promove a flexibilidade, modularidade e reutilização de código.
+
+Em Java, por exemplo, podemos criar uma interface chamada `Veiculo` que define métodos como `acelerar()`, `frear()` e `obterVelocidade()`. Em seguida, podemos implementar essa interface em classes como `Carro`, `Moto` e `Caminhao`. Todas essas classes devem implementar os métodos definidos na interface `Veiculo`, mas cada uma delas pode ter sua própria implementação.
+Exemplo de declaração de uma interface em Java:
+```
+public interface Veiculo {
+    void acelerar();
+    void frear();
+    int obterVelocidade();
+}
+```
+Exemplo de implementação da interface em uma classe concreta:
+
+```
+public class Carro implements Veiculo {
+    private int velocidade;
+
+    public void acelerar() {
+        // Implementação específica para acelerar um carro
+    }
+
+    public void frear() {
+        // Implementação específica para frear um carro
+    }
+
+    public int obterVelocidade() {
+        // Implementação para obter a velocidade de um carro
+        return velocidade;
+    }
+}
+```
+No exemplo acima, a classe `Carro` implementa a interface `Veiculo` e fornece sua própria implementação para os métodos `acelerar()`, `frear()` e `obterVelocidade()`. Essa implementação é específica para um carro, mas outras classes que implementem a interface `Veiculo` devem fornecer suas próprias implementações para esses métodos.
 
 #### ( 6.1.2 ) ENCAPSULAMENTO: 
 É o princípio de manter o comportamento interno e a estrutura de um objeto ocultos ao mundo externo e ao código que é escrito fora da classe. O objetivo desse pilar é esconder a complexidade dos objetos e proteger o seu estado interno de manipulações indevidas. Isso é feito definindo-se níveis de acesso aos métodos e às variáveis de uma classe, como público, privado ou protegido.
@@ -724,14 +766,14 @@ Dessa forma, os métodos getters e setters permitem acessar e modificar os atrib
 * **( 6.1.2.5 ) USO DO FINAL:**
 Em POO, a palavra-chave "final" é usada para modificar elementos de uma classe, indicando que eles não podem ser alterados ou estendidos posteriormente. Existem três contextos principais em que a palavra-chave "final" pode ser utilizada em uma classe:
 
-* **1. NA CLASSE:** Quando uma classe é declarada como final, significa que ela não pode ser herdada por outras classes. Isso impede que outras classes estendam essa classe final. É útil quando se deseja impedir que uma classe seja estendida ou modificada, garantindo que ela mantenha seu comportamento e estrutura original. Exemplo:
+* **⛔NA CLASSE:** Quando uma classe é declarada como final, significa que ela não pode ser herdada por outras classes. Isso impede que outras classes estendam essa classe final. É útil quando se deseja impedir que uma classe seja estendida ou modificada, garantindo que ela mantenha seu comportamento e estrutura original. Exemplo:
    ```
    final class MinhaClasseFinal {
        // Implementação da classe
    }
    ```
 
-* **2. NO METODO:** Quando um método é declarado como final em uma classe, significa que ele não pode ser sobrescrito por subclasses. Isso impede que métodos sejam modificados ou substituídos por classes derivadas. É útil quando se deseja garantir que o comportamento do método não seja alterado nas subclasses. Exemplo:
+* **⛔NO METODO:** Quando um método é declarado como final em uma classe, significa que ele não pode ser sobrescrito por subclasses. Isso impede que métodos sejam modificados ou substituídos por classes derivadas. É útil quando se deseja garantir que o comportamento do método não seja alterado nas subclasses. Exemplo:
    ```
    class MinhaClasse {
        final void meuMetodoFinal() {
@@ -740,7 +782,7 @@ Em POO, a palavra-chave "final" é usada para modificar elementos de uma classe,
    }
    ```
 
-* **3. NA VARIAVEL:** Quando uma variável é declarada como final, significa que seu valor não pode ser alterado após a atribuição inicial. Uma vez que uma variável final recebe um valor, ela se torna constante e não pode ser modificada posteriormente. Isso é útil quando se deseja definir constantes ou valores imutáveis. Exemplo:
+* **⛔NA VARIAVEL:** Quando uma variável é declarada como final, significa que seu valor não pode ser alterado após a atribuição inicial. Uma vez que uma variável final recebe um valor, ela se torna constante e não pode ser modificada posteriormente. Isso é útil quando se deseja definir constantes ou valores imutáveis. Exemplo:
    ```
    class MinhaClasse {
        final int minhaVariavelFinal = 10;
