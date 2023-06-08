@@ -164,7 +164,7 @@ Os operadores bit a bit permitem a manipulação dos bits individuais de um valo
    int resultado = a << 2; // resultado = 20 (10100 em binário)
    ```
 
-* 4. **Deslocamento à direita (>>):** Desloca os bits de um valor para a direita, descartando os bits à direita. O sinal do valor original é preservado para números com sinal (aritmética à direita) e os bits mais significativos são preenchidos com o bit de sinal para números com sinal. Por exemplo:
+* **4. Deslocamento à direita (>>):** Desloca os bits de um valor para a direita, descartando os bits à direita. O sinal do valor original é preservado para números com sinal (aritmética à direita) e os bits mais significativos são preenchidos com o bit de sinal para números com sinal. Por exemplo:
    ```
    int a = 10; // 1010 em binário
    int resultado = a >> 2; // resultado = 2 (0010 em binário)
