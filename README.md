@@ -166,7 +166,7 @@ Nesse exemplo, a variável a recebe o valor 10. A condição (a > 5) é avaliada
 
 O operador ternário é uma ferramenta útil para simplificar o código e torná-lo mais legível e conciso, mas é importante usá-lo com moderação e de forma adequada, para não comprometer a facilidade de entendimento do código.
 
-## (1) VARIÁVEIS SIMPLES:
+## ( 1 ) VARIÁVEIS SIMPLES:
 
 As variáveis simples são variáveis que armazenam um único valor em um determinado momento. Esses tipos de variáveis armazenam valores de tipos de dados básicos, como inteiros, reais, caracteres, booleanos, entre outros, dependendo da linguagem de programação.
 
@@ -196,7 +196,64 @@ public class ExemploVariaveis {
 }
 ````
 
-## (2) VARIÁVEIS COMPOSTAS:
+## ( 2 ) ESTRUTURA CONDICIONAL:
+As estruturas condicionais são um recurso da programação que permitem a execução de um bloco de código baseado em uma condição. Basicamente, a estrutura condicional verifica se uma determinada condição é verdadeira ou falsa e executa o código correspondente.
+
+A estrutura condicional consiste em três partes principais: a condição, o bloco de código que será executado se a condição for verdadeira (bloco "então"), e o bloco de código que será executado se a condição for falsa (bloco "senão").
+
+As duas principais estruturas condicionais são a "if-else" e a "switch-case". Na estrutura "if-else", o código dentro do bloco "então" é executado somente se a condição for verdadeira. Caso contrário, o código dentro do bloco "senão" será executado, se houver um bloque "senão". Exemplo:
+````
+if (idade >= 18) {
+   System.out.println("Pode votar!");
+} 
+else {
+   System.out.println("Ainda é jovem para votar.");
+}
+````
+
+Na estrutura "switch-case", o código selecionado para execução depende do valor de uma variável. É possível ter vários casos no bloco "caso", onde cada caso representa um valor diferente da variável. Exemplo:
+````
+switch (nota) {
+   case 10:
+      System.out.println("Nota máxima!");
+      break;
+   case 7:
+      System.out.println("Aprovado.");
+      break;
+   default:
+      System.out.println("Reprovado.");
+}
+````
+
+Com essas estruturas condicionais, os programadores podem controlar o fluxo do programa de maneira muito mais eficiente, garantindo que cada bloco de código seja executado apenas quando necessário.
+
+## ( 3 ) ESTRUTURA DE REPETIÇÃO:
+As estruturas de repetição, também conhecidas como laços ou loops, são utilizadas em programação para executar um conjunto de instruções repetidamente, enquanto uma condição específica é satisfeita. Existem três principais tipos de loops em programação:
+
+* **1. O loop while:** O while é utilizado quando não se sabe o número exato de vezes que as instruções devem ser repetidas. A condição é testada antes de cada iteração do loop, e enquanto a condição permanecer verdadeira, o loop irá executar as instruções. A estrutura do loop while é a seguinte:
+````
+while (condicao) {
+  // instrucoes
+}
+````
+
+* **2. O loop do-while:** O do-while é similar ao loop while, mas a condição é testada depois de cada iteração do loop. Isso significa que, independente da condição, o loop irá executar as instruções pelo menos uma vez. A estrutura do loop do-while é a seguinte:
+````
+do {
+  // instrucoes
+} while (condicao);
+````
+
+* **3. O loop for:** O loop for é utilizado quando se sabe o número exato de vezes que o loop deve ser executado. Ele é composto por três partes: a inicialização, a condição e a atualização. A inicialização é executada apenas uma vez, no início do loop. A condição é testada antes de cada iteração do loop e, enquanto a condição permanecer verdadeira, o loop irá executar as instruções. A atualização é executada no final de cada iteração do loop. A estrutura do loop for é a seguinte:
+````
+for (inicializacao; condicao; atualizacao) {
+  // instrucoes
+}
+````
+
+Cada uma dessas estruturas pode ser utilizada para diferentes propósitos, dependendo da lógica do programa. A escolha da estrutura ideal depende do problema a ser resolvido e da lógica do programa em si. É importante lembrar que loops mal escritos podem causar problemas como loops infinitos e travamentos do programa, então é importante ter cuidado ao implementá-los.
+
+## ( 4 ) VARIÁVEIS COMPOSTAS:
 
 Variáveis compostas na programação são tipos de dados que podem armazenar um conjunto de valores relacionados como se fossem um único valor. Esses tipos incluem arrays, listas, matrizes, tuplas, dicionários, entre outros, dependendo da linguagem de programação utilizada.
 
@@ -311,64 +368,7 @@ public class ExemploMatriz {
 
 Usando variáveis compostas, os programadores podem armazenar e manipular conjuntos de dados relacionados de forma mais eficiente e conveniente do que armazenar cada valor em uma variável separada.
 
-## (3) ESTRUTURA CONDICIONAL:
-As estruturas condicionais são um recurso da programação que permitem a execução de um bloco de código baseado em uma condição. Basicamente, a estrutura condicional verifica se uma determinada condição é verdadeira ou falsa e executa o código correspondente.
-
-A estrutura condicional consiste em três partes principais: a condição, o bloco de código que será executado se a condição for verdadeira (bloco "então"), e o bloco de código que será executado se a condição for falsa (bloco "senão").
-
-As duas principais estruturas condicionais são a "if-else" e a "switch-case". Na estrutura "if-else", o código dentro do bloco "então" é executado somente se a condição for verdadeira. Caso contrário, o código dentro do bloco "senão" será executado, se houver um bloque "senão". Exemplo:
-````
-if (idade >= 18) {
-   System.out.println("Pode votar!");
-} 
-else {
-   System.out.println("Ainda é jovem para votar.");
-}
-````
-
-Na estrutura "switch-case", o código selecionado para execução depende do valor de uma variável. É possível ter vários casos no bloco "caso", onde cada caso representa um valor diferente da variável. Exemplo:
-````
-switch (nota) {
-   case 10:
-      System.out.println("Nota máxima!");
-      break;
-   case 7:
-      System.out.println("Aprovado.");
-      break;
-   default:
-      System.out.println("Reprovado.");
-}
-````
-
-Com essas estruturas condicionais, os programadores podem controlar o fluxo do programa de maneira muito mais eficiente, garantindo que cada bloco de código seja executado apenas quando necessário.
-
-## (4) ESTRUTURA DE REPETIÇÃO:
-As estruturas de repetição, também conhecidas como laços ou loops, são utilizadas em programação para executar um conjunto de instruções repetidamente, enquanto uma condição específica é satisfeita. Existem três principais tipos de loops em programação:
-
-* **1. O loop while:** O while é utilizado quando não se sabe o número exato de vezes que as instruções devem ser repetidas. A condição é testada antes de cada iteração do loop, e enquanto a condição permanecer verdadeira, o loop irá executar as instruções. A estrutura do loop while é a seguinte:
-````
-while (condicao) {
-  // instrucoes
-}
-````
-
-* **2. O loop do-while:** O do-while é similar ao loop while, mas a condição é testada depois de cada iteração do loop. Isso significa que, independente da condição, o loop irá executar as instruções pelo menos uma vez. A estrutura do loop do-while é a seguinte:
-````
-do {
-  // instrucoes
-} while (condicao);
-````
-
-* **3. O loop for:** O loop for é utilizado quando se sabe o número exato de vezes que o loop deve ser executado. Ele é composto por três partes: a inicialização, a condição e a atualização. A inicialização é executada apenas uma vez, no início do loop. A condição é testada antes de cada iteração do loop e, enquanto a condição permanecer verdadeira, o loop irá executar as instruções. A atualização é executada no final de cada iteração do loop. A estrutura do loop for é a seguinte:
-````
-for (inicializacao; condicao; atualizacao) {
-  // instrucoes
-}
-````
-
-Cada uma dessas estruturas pode ser utilizada para diferentes propósitos, dependendo da lógica do programa. A escolha da estrutura ideal depende do problema a ser resolvido e da lógica do programa em si. É importante lembrar que loops mal escritos podem causar problemas como loops infinitos e travamentos do programa, então é importante ter cuidado ao implementá-los.
-
-## (5) FUNÇÕES OU METODOS:
+## ( 5 ) FUNÇÕES OU METODOS:
 Uma função é uma porção de código que realiza uma tarefa específica e pode ser chamada, ou invocada, em diferentes partes do programa. A função geralmente recebe um ou mais argumentos como entrada, executa uma série de operações em cima deles e pode retornar um valor de saída para o restante do programa.
 
 As funções permitem que os programadores escrevam código mais modular e reutilizável. Ao invés de repetir o mesmo bloco de código em várias partes do programa, uma única função pode ser criada para realizar essa tarefa e chamada sempre que necessário.
@@ -405,7 +405,7 @@ Esses são apenas exemplos simples de funções em JavaScript. As funções em J
 
 As funções podem ser uma ótima maneira de tornar o código mais fácil de ler e manter, ao mesmo tempo que aumentam a modularidade e a reutilização do código.
 
-## (06) CLASS POO:
+## ( 6 ) CLASS POO:
 A programação orientada a objetos (POO) é uma abordagem de programação que se baseia no conceito de objetos, que podem conter dados e funções e interagir com outros objetos.
 
 Em POO, os objetos são criados a partir de classes que servem como modelos para definir seus atributos (dados) e métodos (funções). Cada objeto, por sua vez, pode ter seu próprio conjunto de valores de dados exclusivo, mesmo que compartilhe a mesma classe. Além disso, os objetos podem se comunicar com outros objetos através de mecanismos de troca de mensagem.
