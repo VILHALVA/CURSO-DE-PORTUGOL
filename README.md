@@ -22,7 +22,7 @@
 
 ![](https://i.imgur.com/waxVImv.png)
 # 📚SE APROFUDANDO MAIS:
-## 1 - OPERADORES ARITMÉTICOS:
+## (0.1) OPERADORES ARITMÉTICOS:
 
 | SINAL | USADO |
 | :---: | :---: |
@@ -53,7 +53,7 @@ Por exemplo, na expressão 2 + 3 * 4, a multiplicação será realizada antes da
 
 Em resumo, os operadores aritméticos são importantes na programação e são amplamente utilizados para realizar cálculos e outras operações matemáticas de forma eficiente e precisa.
 
-## 2 - OPERADORES RELACIONAIS:
+## (0.2) OPERADORES RELACIONAIS:
 
 | SINAL | USADO |
 :---: | :---: |
@@ -79,7 +79,7 @@ O resultado de uma comparação utilizando um operador relacional é sempre um v
 
 Em resumo, os operadores relacionais são importantes na programação e são amplamente utilizados em estruturas de controle de fluxo para avaliar condições e tomar decisões com base nos resultados.
 
-## 3 - OPERADORES LÓGICOS:
+## (0.3) OPERADORES LÓGICOS:
 
 | ABREV | SIMBOLO | SIGNIFICADO | BOOLEANO |
 :---: | :---: | :---: | :---:|
@@ -115,7 +115,7 @@ if (!(a > 5)) {
 
 Os operadores lógicos são comumente usados junto com operadores relacionais (como <, >, <=, >=, ==, !=) para criar condições mais complexas que ajudam o programa a tomar decisões com base em várias variáveis.
 
-## 4) OPERADOR UNÁRIO:
+## (0.4) OPERADOR UNÁRIO:
 Operador unário é um operador matemático utilizado em programação que atua em apenas um operando, ao contrário dos operadores binários, que atuam sobre dois operandos. Na programação, os operadores unários são usados para realizar operações em um único valor ou variável. Existem vários tipos de operadores unários, incluindo:
 
 **1. Operadores aritméticos, que realizam operações matemáticas simples em um único valor ou variável, como incrementos/decrementos e negação:**
@@ -139,7 +139,7 @@ Operador unário é um operador matemático utilizado em programação que atua 
 
 * Em resumo, os operadores unários são importantes em programação e são amplamente utilizados em diferentes linguagens para realizar operações matemáticas, lógicas, de endereço, de converção de tipos e outras operações sobre um único valor ou variável.
 
-## 5) OPERADOR TERNÁRIO:
+## (0.5) OPERADOR TERNÁRIO:
 Operador ternário é um operador condicional presente em algumas linguagens de programação, como C, C++, Java, Python, entre outras. Ele é geralmente utilizado em situações que envolvem questionamentos condicionais, onde o resultado pode ser um ou outro valor.
 A sintaxe do operador ternário é tipicamente:
 
@@ -166,7 +166,7 @@ Nesse exemplo, a variável a recebe o valor 10. A condição (a > 5) é avaliada
 
 O operador ternário é uma ferramenta útil para simplificar o código e torná-lo mais legível e conciso, mas é importante usá-lo com moderação e de forma adequada, para não comprometer a facilidade de entendimento do código.
 
-## 6) VARIÁVEIS SIMPLES:
+## (1) VARIÁVEIS SIMPLES:
 
 As variáveis simples são variáveis que armazenam um único valor em um determinado momento. Esses tipos de variáveis armazenam valores de tipos de dados básicos, como inteiros, reais, caracteres, booleanos, entre outros, dependendo da linguagem de programação.
 
@@ -196,7 +196,7 @@ public class ExemploVariaveis {
 }
 ````
 
-## 7) VARIÁVEIS COMPOSTAS:
+## (2) VARIÁVEIS COMPOSTAS:
 
 Variáveis compostas na programação são tipos de dados que podem armazenar um conjunto de valores relacionados como se fossem um único valor. Esses tipos incluem arrays, listas, matrizes, tuplas, dicionários, entre outros, dependendo da linguagem de programação utilizada.
 
@@ -311,7 +311,7 @@ public class ExemploMatriz {
 
 Usando variáveis compostas, os programadores podem armazenar e manipular conjuntos de dados relacionados de forma mais eficiente e conveniente do que armazenar cada valor em uma variável separada.
 
-## 8) ESTRUTURA CONDICIONAL:
+## (3) ESTRUTURA CONDICIONAL:
 As estruturas condicionais são um recurso da programação que permitem a execução de um bloco de código baseado em uma condição. Basicamente, a estrutura condicional verifica se uma determinada condição é verdadeira ou falsa e executa o código correspondente.
 
 A estrutura condicional consiste em três partes principais: a condição, o bloco de código que será executado se a condição for verdadeira (bloco "então"), e o bloco de código que será executado se a condição for falsa (bloco "senão").
@@ -342,7 +342,7 @@ switch (nota) {
 
 Com essas estruturas condicionais, os programadores podem controlar o fluxo do programa de maneira muito mais eficiente, garantindo que cada bloco de código seja executado apenas quando necessário.
 
-## 9) ESTRUTURA DE REPETIÇÃO:
+## (4) ESTRUTURA DE REPETIÇÃO:
 As estruturas de repetição, também conhecidas como laços ou loops, são utilizadas em programação para executar um conjunto de instruções repetidamente, enquanto uma condição específica é satisfeita. Existem três principais tipos de loops em programação:
 
 * **1. O loop while:** O while é utilizado quando não se sabe o número exato de vezes que as instruções devem ser repetidas. A condição é testada antes de cada iteração do loop, e enquanto a condição permanecer verdadeira, o loop irá executar as instruções. A estrutura do loop while é a seguinte:
@@ -368,7 +368,7 @@ for (inicializacao; condicao; atualizacao) {
 
 Cada uma dessas estruturas pode ser utilizada para diferentes propósitos, dependendo da lógica do programa. A escolha da estrutura ideal depende do problema a ser resolvido e da lógica do programa em si. É importante lembrar que loops mal escritos podem causar problemas como loops infinitos e travamentos do programa, então é importante ter cuidado ao implementá-los.
 
-## 10) FUNÇÕES OU METODOS:
+## (5) FUNÇÕES OU METODOS:
 Uma função é uma porção de código que realiza uma tarefa específica e pode ser chamada, ou invocada, em diferentes partes do programa. A função geralmente recebe um ou mais argumentos como entrada, executa uma série de operações em cima deles e pode retornar um valor de saída para o restante do programa.
 
 As funções permitem que os programadores escrevam código mais modular e reutilizável. Ao invés de repetir o mesmo bloco de código em várias partes do programa, uma única função pode ser criada para realizar essa tarefa e chamada sempre que necessário.
@@ -405,7 +405,7 @@ Esses são apenas exemplos simples de funções em JavaScript. As funções em J
 
 As funções podem ser uma ótima maneira de tornar o código mais fácil de ler e manter, ao mesmo tempo que aumentam a modularidade e a reutilização do código.
 
-## 11) PROGRAMAÇÃO ORIENTADA A OBJETOS (POO):
+## (06) CLASS POO:
 A programação orientada a objetos (POO) é uma abordagem de programação que se baseia no conceito de objetos, que podem conter dados e funções e interagir com outros objetos.
 
 Em POO, os objetos são criados a partir de classes que servem como modelos para definir seus atributos (dados) e métodos (funções). Cada objeto, por sua vez, pode ter seu próprio conjunto de valores de dados exclusivo, mesmo que compartilhe a mesma classe. Além disso, os objetos podem se comunicar com outros objetos através de mecanismos de troca de mensagem.
@@ -457,7 +457,7 @@ public class Pessoa {
 }
 ````
 
-## 12) QUATRO PILARES DA POO:
+### OS QUATRO PILARES DA POO:
 Os quatro pilares da programação orientada a objetos são:
 
 * **1. Encapsulamento:** É o princípio de manter o comportamento interno e a estrutura de um objeto ocultos ao mundo externo e ao código que é escrito fora da classe. O objetivo desse pilar é esconder a complexidade dos objetos e proteger o seu estado interno de manipulações indevidas. Isso é feito definindo-se níveis de acesso aos métodos e às variáveis de uma classe, como público, privado ou protegido.
@@ -659,7 +659,7 @@ A classe abstrata Animal serve como um modelo genérico para representar animais
 
 A abstração nos permite representar conceitos genéricos e definir comportamentos comuns em classes abstratas, enquanto as classes concretas fornecem a implementação específica desses comportamentos. A abstração nos ajuda a criar um código mais flexível, reutilizável e de fácil manutenção.
 
-## 13) OS MÉTODOS GETTERS, SETTERS E CONSTRUTOR:
+### OS MÉTODOS GETTERS, SETTERS E CONSTRUTOR:
 Os métodos getters e setters são utilizados em programação orientada a objetos para acessar e modificar os atributos de um objeto de classe. Os getters, ou acessores, são métodos que retornam o valor de um atributo enquanto os setters, ou modificadores, são métodos que definem o valor de um atributo. Eles são importantes para manter a privacidade e a segurança dos dados de uma classe, garantindo que o acesso aos atributos seja controlado.
 
 Por exemplo, suponha que eu tenha uma classe chamada "Pessoa" que tem um atributo "idade". O método getter para o atributo idade seria escrito como:
