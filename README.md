@@ -501,7 +501,7 @@ Os quatro pilares da programação orientada a objetos são:
 #### ( 6.1.1 ) ABSTRAÇÃO:
 É a capacidade de omitir informações detalhadas e irrelevantes e concentrar-se apenas nos aspectos importantes do objeto.
 
-##### ( 6.1.1.1 ) OBJETIVO:
+#### ( 6.1.1.1 ) OBJETIVO:
 O objetivo da abstração é estabelecer uma forma mais simples e genérica de se pensar nos objetos. Isso é feito identificando os aspectos mais importantes de um objeto e modelando-o em uma classe. A abstração pode ser alcançada por meio de classes abstratas e interfaces, que permitem a especificação dos métodos e atributos que uma classe deve implementar sem fornecer uma implementação real.
 ````
 // Classe abstrata
@@ -561,7 +561,7 @@ Uma classe abstrata não pode ser instanciada diretamente porque ela é consider
 No entanto, as classes abstratas podem ser herdadas por outras classes, permitindo que essas classes filhas forneçam uma implementação concreta para os métodos abstratos. Essas classes filhas devem implementar todos os métodos abstratos herdados da classe abstrata, tornando-as instanciáveis.
 A ideia por trás das classes abstratas é fornecer uma estrutura comum e definir um contrato para as classes derivadas. Elas são projetadas para serem estendidas e especializadas por meio da herança, permitindo a criação de objetos mais específicos e completos. Ao impedir a instanciação direta das classes abstratas, garantimos que todas as subclasses sigam o contrato definido pela classe abstrata e forneçam as implementações necessárias para todos os métodos abstratos.
 
-##### ( 6.1.1.2 ) O QUE É INTERFACE?:
+#### ( 6.1.1.2 ) O QUE É INTERFACE?:
 A interface é um elemento fundamental na programação orientada a objetos (POO) e faz parte do pilar da Abstração. Ela permite definir um contrato ou um conjunto de métodos que uma classe deve implementar. Em outras palavras, uma interface estabelece um conjunto de funcionalidades que uma classe concreta deve ter.
 
 Ao utilizar interfaces, podemos estabelecer um contrato comum entre diferentes classes, permitindo que elas sejam intercambiáveis em determinados contextos. Isso promove a flexibilidade, modularidade e reutilização de código.
@@ -642,7 +642,8 @@ Neste exemplo, a classe Pessoa possui duas variáveis de instância nome e idade
 Em seguida, a classe fornece métodos getter e setter para acessar e modificar essas variáveis. Os métodos getter permitem obter o valor das variáveis, enquanto os métodos setter permitem definir novos valores para as variáveis.
 Dentro do método main, criamos uma instância da classe Pessoa e utilizamos os métodos setter para atribuir valores ao nome e à idade da pessoa. Em seguida, utilizamos os métodos getter para obter os valores e exibimos na saída do console.
 
-* **( 6.1.2.1 ) PUBLIC:** Os membros declarados como public são acessíveis de qualquer lugar, tanto dentro da classe quanto fora dela. Eles podem ser acessados diretamente pelos objetos da classe ou por outras classes. Por exemplo:
+#### ( 6.1.2.1 ) VISIVIBILIDADE:
+**⛔PUBLIC:** Os membros declarados como public são acessíveis de qualquer lugar, tanto dentro da classe quanto fora dela. Eles podem ser acessados diretamente pelos objetos da classe ou por outras classes. Por exemplo:
 ````
 public class Exemplo {
     public int valorPublico;
@@ -653,7 +654,7 @@ public class Exemplo {
 }
 ````
 
-* **( 6.1.2.2 ) PRIVATE:** Os membros declarados como private são acessíveis apenas dentro da própria classe. Eles não podem ser acessados diretamente por objetos de outras classes. Essa visibilidade é útil para proteger os detalhes internos da implementação de uma classe. Por exemplo:
+**⛔PRIVATE:** Os membros declarados como private são acessíveis apenas dentro da própria classe. Eles não podem ser acessados diretamente por objetos de outras classes. Essa visibilidade é útil para proteger os detalhes internos da implementação de uma classe. Por exemplo:
 ````
 public class Exemplo {
     private int valorPrivado;
@@ -664,7 +665,7 @@ public class Exemplo {
 }
 ````
 
-* **( 6.1.2.3 ) PROTECTED:** Os membros declarados como protected são acessíveis dentro da classe em que foram definidos, além de serem acessíveis nas subclasses dessa classe. Ou seja, eles têm uma visibilidade um pouco mais ampla do que private, permitindo o acesso por subclasses. No entanto, eles não são acessíveis a partir de outras classes fora da hierarquia de herança. Por exemplo:
+**⛔PROTECTED:** Os membros declarados como protected são acessíveis dentro da classe em que foram definidos, além de serem acessíveis nas subclasses dessa classe. Ou seja, eles têm uma visibilidade um pouco mais ampla do que private, permitindo o acesso por subclasses. No entanto, eles não são acessíveis a partir de outras classes fora da hierarquia de herança. Por exemplo:
 ````
 public class Exemplo {
     protected int valorProtegido;
@@ -679,26 +680,24 @@ Ao utilizar o encapsulamento, estamos protegendo os detalhes internos da classe 
 A escolha do modificador de acesso a ser utilizado depende da necessidade de cada membro em relação à sua visibilidade. O uso adequado desses modificadores pode garantir a segurança e a consistência do código, ao mesmo tempo em que permite um acoplamento adequado entre as classes.
 É importante ressaltar que essas definições de modificadores de acesso podem variar entre as linguagens de programação, mas os conceitos básicos de encapsulamento e controle de acesso são amplamente aplicados em muitas linguagens orientadas a objetos.
 
-* **( 6.1.2.4 ) OS MÉTODOS GETTERS, SETTERS E CONSTRUTOR:**
-* Os métodos getters e setters são utilizados em programação orientada a objetos para acessar e modificar os atributos de um objeto de classe. Os getters, ou acessores, são métodos que retornam o valor de um atributo enquanto os setters, ou modificadores, são métodos que definem o valor de um atributo. Eles são importantes para manter a privacidade e a segurança dos dados de uma classe, garantindo que o acesso aos atributos seja controlado.
+#### ( 6.1.2.2 ) OS MÉTODOS GETTERS, SETTERS E CONSTRUTOR:
+Os métodos getters e setters são utilizados em programação orientada a objetos para acessar e modificar os atributos de um objeto de classe. Os getters, ou acessores, são métodos que retornam o valor de um atributo enquanto os setters, ou modificadores, são métodos que definem o valor de um atributo. Eles são importantes para manter a privacidade e a segurança dos dados de uma classe, garantindo que o acesso aos atributos seja controlado.
 
-* **⛔GETTERS:** Os métodos getters são utilizados para obter o valor de um atributo, fornecendo acesso somente leitura. Esses métodos geralmente têm o prefixo "get" seguido pelo nome do atributo e não recebem parâmetros. Eles retornam o valor do atributo desejado. 
+**⛔GETTERS:** Os métodos getters são utilizados para obter o valor de um atributo, fornecendo acesso somente leitura. Esses métodos geralmente têm o prefixo "get" seguido pelo nome do atributo e não recebem parâmetros. Eles retornam o valor do atributo desejado. 
 Por exemplo, suponha que eu tenha uma classe chamada "Pessoa" que tem um atributo "idade". O método getter para o atributo idade seria escrito como:
 ````
 public int getIdade() {
   return idade;
 }
 ````
-
-* **⛔SETTERS:** Os métodos setters são utilizados para definir o valor de um atributo, fornecendo acesso somente escrita. Esses métodos geralmente têm o prefixo "set" seguido pelo nome do atributo e recebem um parâmetro correspondente ao novo valor do atributo. 
+**⛔SETTERS:** Os métodos setters são utilizados para definir o valor de um atributo, fornecendo acesso somente escrita. Esses métodos geralmente têm o prefixo "set" seguido pelo nome do atributo e recebem um parâmetro correspondente ao novo valor do atributo. 
 O método setter seria escrito da seguinte forma:
 ````
 public void setIdade(int novaIdade) {
   idade = novaIdade;
 }
 ````
-
-* **⛔CONSTRUTOR:** Os construtores são métodos especiais usados para criar e inicializar objetos de uma classe. Eles têm o mesmo nome da classe e podem receber parâmetros para definir os valores iniciais dos atributos do objeto. Os construtores são chamados no momento da criação do objeto e permitem a configuração inicial do seu estado.
+**⛔CONSTRUTOR:** Os construtores são métodos especiais usados para criar e inicializar objetos de uma classe. Eles têm o mesmo nome da classe e podem receber parâmetros para definir os valores iniciais dos atributos do objeto. Os construtores são chamados no momento da criação do objeto e permitem a configuração inicial do seu estado.
 Por exemplo, o construtor da classe Pessoa pode ser escrito assim:
 ````
 public Pessoa(String nome, int idade) {
@@ -706,7 +705,6 @@ public Pessoa(String nome, int idade) {
   this.idade = idade;
 }
 ````
-
 Neste caso, o construtor recebe dois argumentos (o nome e a idade da pessoa) e inicializa os atributos correspondentes. O "this" é utilizado para referenciar o objeto atual que está sendo criado.
 ````
 public class Pessoa {
@@ -763,17 +761,17 @@ No método main, criamos uma instância da classe Pessoa chamada pessoa e passam
 Depois, utilizamos os setters para alterar o nome para "Maria" e a idade para 25. Utilizamos novamente os getters para obter os novos valores e os imprimimos na saída do console.
 Dessa forma, os métodos getters e setters permitem acessar e modificar os atributos da classe de forma controlada, mantendo a encapsulação e permitindo um código mais seguro e flexível.
 
-* **( 6.1.2.5 ) USO DO FINAL:**
+#### ( 6.1.2.3 ) USO DO FINAL:
 Em POO, a palavra-chave "final" é usada para modificar elementos de uma classe, indicando que eles não podem ser alterados ou estendidos posteriormente. Existem três contextos principais em que a palavra-chave "final" pode ser utilizada em uma classe:
 
-* **⛔NA CLASSE:** Quando uma classe é declarada como final, significa que ela não pode ser herdada por outras classes. Isso impede que outras classes estendam essa classe final. É útil quando se deseja impedir que uma classe seja estendida ou modificada, garantindo que ela mantenha seu comportamento e estrutura original. Exemplo:
+**⛔NA CLASSE:** Quando uma classe é declarada como final, significa que ela não pode ser herdada por outras classes. Isso impede que outras classes estendam essa classe final. É útil quando se deseja impedir que uma classe seja estendida ou modificada, garantindo que ela mantenha seu comportamento e estrutura original. Exemplo:
    ```
    final class MinhaClasseFinal {
        // Implementação da classe
    }
    ```
 
-* **⛔NO METODO:** Quando um método é declarado como final em uma classe, significa que ele não pode ser sobrescrito por subclasses. Isso impede que métodos sejam modificados ou substituídos por classes derivadas. É útil quando se deseja garantir que o comportamento do método não seja alterado nas subclasses. Exemplo:
+**⛔NO METODO:** Quando um método é declarado como final em uma classe, significa que ele não pode ser sobrescrito por subclasses. Isso impede que métodos sejam modificados ou substituídos por classes derivadas. É útil quando se deseja garantir que o comportamento do método não seja alterado nas subclasses. Exemplo:
    ```
    class MinhaClasse {
        final void meuMetodoFinal() {
@@ -782,7 +780,7 @@ Em POO, a palavra-chave "final" é usada para modificar elementos de uma classe,
    }
    ```
 
-* **⛔NA VARIAVEL:** Quando uma variável é declarada como final, significa que seu valor não pode ser alterado após a atribuição inicial. Uma vez que uma variável final recebe um valor, ela se torna constante e não pode ser modificada posteriormente. Isso é útil quando se deseja definir constantes ou valores imutáveis. Exemplo:
+**⛔NA VARIAVEL:** Quando uma variável é declarada como final, significa que seu valor não pode ser alterado após a atribuição inicial. Uma vez que uma variável final recebe um valor, ela se torna constante e não pode ser modificada posteriormente. Isso é útil quando se deseja definir constantes ou valores imutáveis. Exemplo:
    ```
    class MinhaClasse {
        final int minhaVariavelFinal = 10;
@@ -882,8 +880,8 @@ O polimorfismo permite escrever código mais flexível, extensível e reutilizá
 
 Existem dois tipos principais de polimorfismo: polimorfismo de subtipo (ou polimorfismo de herança) e polimorfismo de sobrecarga (ou polimorfismo estático).
 
-* **( 6.2.4.1 ) POLIMORFISMO DE SOBREPOSIÇÃO:**
-* O polimorfismo de sobreposição ou subtipo ocorre quando uma classe filha é tratada como uma classe pai. Isso significa que um objeto de uma classe filha pode ser atribuído a uma variável do tipo da classe pai. O polimorfismo de subtipo é alcançado por meio da herança. Exemplo:
+#### ( 6.2.4.1 ) POLIMORFISMO DE SOBREPOSIÇÃO:
+O polimorfismo de sobreposição ou subtipo ocorre quando uma classe filha é tratada como uma classe pai. Isso significa que um objeto de uma classe filha pode ser atribuído a uma variável do tipo da classe pai. O polimorfismo de subtipo é alcançado por meio da herança. Exemplo:
    ```
    class Animal {
        public void fazerSom() {
@@ -917,8 +915,8 @@ Existem dois tipos principais de polimorfismo: polimorfismo de subtipo (ou polim
    ```
 Neste exemplo, temos uma classe `Animal` como classe pai e as classes `Cachorro` e `Gato` como classes filhas. Cada classe filha sobrescreve o método `fazerSom()` da classe pai com sua própria implementação. No método `main()`, criamos objetos das classes filhas e os atribuímos a variáveis do tipo da classe pai. Em seguida, chamamos o método `fazerSom()`, e o comportamento polimórfico ocorre, executando a implementação apropriada de cada classe filha.
 
-* **( 6.2.4.2 ) POLIMORFISMO DE SOBRECARGA:**
-* O polimorfismo de sobrecarga ocorre quando uma classe possui vários métodos com o mesmo nome, mas com parâmetros diferentes. A escolha do método a ser executado é determinada pelos tipos e pela quantidade de parâmetros passados durante a chamada do método. Exemplo:
+#### ( 6.2.4.2 ) POLIMORFISMO DE SOBRECARGA:
+O polimorfismo de sobrecarga ocorre quando uma classe possui vários métodos com o mesmo nome, mas com parâmetros diferentes. A escolha do método a ser executado é determinada pelos tipos e pela quantidade de parâmetros passados durante a chamada do método. Exemplo:
    ```
    class Calculadora {
        public int somar(int num1, int num2) {
