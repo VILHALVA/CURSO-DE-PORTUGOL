@@ -315,6 +315,31 @@ public class ExemploVariaveis {
 }
 ````
 
+Existem diferentes tipos de variáveis em linguagens de programação. Vou citar os tipos mais comuns:
+
+**1. Variáveis numéricas:**
+   - Inteiro (int): representa números inteiros, como -10, 0, 100.
+   - Ponto flutuante (float/double): representa números reais, incluindo valores com casas decimais, como 3.14, -0.5, 10.75.
+   - Decimal (decimal): representa números com alta precisão decimal, geralmente usado para cálculos financeiros.
+
+**2. Variáveis de texto:**
+   - String (str): representa uma sequência de caracteres, como "Olá, mundo!", "123abc", "Texto de exemplo".
+
+**3. Variáveis booleanas:**
+   - Booleano (bool): representa um valor verdadeiro (true) ou falso (false).
+
+**4. Variáveis de data e hora:**
+   - Data (date): representa uma data específica, como 2022-01-01.
+   - Hora (time): representa uma hora específica, como 12:30:00.
+   - Data e hora (datetime): representa uma combinação de data e hora, como 2022-01-01 12:30:00.
+
+**5. Variáveis de caracteres:**
+   - Caractere (char): representa um único caractere, como 'A', '1', '?'.
+
+Além desses tipos básicos, muitas linguagens de programação também oferecem tipos de variáveis compostas, como arrays (vetores), listas, tuplas, dicionários, entre outros, que permitem armazenar coleções de valores.
+
+É importante lembrar que os tipos de variáveis podem variar entre as linguagens de programação, portanto, é sempre recomendado consultar a documentação da linguagem específica para obter informações mais detalhadas sobre os tipos de variáveis disponíveis.
+
 # ( 2 ) ESTRUTURA CONDICIONAL:
 As estruturas condicionais são um recurso da programação que permitem a execução de um bloco de código baseado em uma condição. Basicamente, a estrutura condicional verifica se uma determinada condição é verdadeira ou falsa e executa o código correspondente.
 A estrutura condicional consiste em três partes principais: a condição, o bloco de código que será executado se a condição for verdadeira (bloco "então"), e o bloco de código que será executado se a condição for falsa (bloco "senão").
