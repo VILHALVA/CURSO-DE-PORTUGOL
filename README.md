@@ -889,7 +889,7 @@ Em resumo, as diferenças entre essas estruturas de dados estão relacionadas à
 
 Usando variáveis compostas, os programadores podem armazenar e manipular conjuntos de dados relacionados de forma mais eficiente e conveniente do que armazenar cada valor em uma variável separada.
 
-# ( 5 ) FUNÇÕES OU METODOS:
+# ( 5 ) FUNÇÕES:
 Uma função é uma porção de código que realiza uma tarefa específica e pode ser chamada, ou invocada, em diferentes partes do programa. A função geralmente recebe um ou mais argumentos como entrada, executa uma série de operações em cima deles e pode retornar um valor de saída para o restante do programa.
 As funções permitem que os programadores escrevam código mais modular e reutilizável. Ao invés de repetir o mesmo bloco de código em várias partes do programa, uma única função pode ser criada para realizar essa tarefa e chamada sempre que necessário.
 
