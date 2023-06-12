@@ -957,6 +957,58 @@ Existem diferentes tipos de funções em programação, cada uma com sua finalid
    ```
 Esses são apenas alguns exemplos de tipos de funções que podem ser encontrados em diversas linguagens de programação. A escolha do tipo de função adequado depende da necessidade específica do problema que está sendo resolvido.
 
+No contexto da programação, o escopo de uma função refere-se à visibilidade e acessibilidade das variáveis dentro dessa função. Existem dois tipos principais de escopo em uma função: escopo local e escopo global.
+
+**1. Escopo Local:**
+   - As variáveis declaradas dentro de uma função têm escopo local e são acessíveis apenas dentro dessa função.
+   - Elas são conhecidas como variáveis locais e são criadas quando a função é chamada e destruídas quando a função é concluída.
+   - As variáveis locais são úteis para armazenar dados temporários ou intermediários que são relevantes apenas para a execução da função.
+   - Elas não podem ser acessadas por outras funções fora do escopo da função em que foram declaradas.
+   ````python 
+   def minha_funcao():
+    # Variável local
+    mensagem = "Olá, mundo!"
+    print(mensagem)
+
+   minha_funcao()
+   # Saída: Olá, mundo!
+
+   # Tentando acessar a variável local fora da função
+   print(mensagem)
+   # Saída: NameError: name 'mensagem' is not defined
+   ````
+Neste exemplo, a variável mensagem é uma variável local dentro da função minha_funcao(). Ela só é acessível dentro do escopo dessa função. Tentar acessá-la fora da função resultará em um erro.
+
+**2. Escopo Global:**
+   - As variáveis declaradas fora de qualquer função têm escopo global e são acessíveis em todo o programa.
+   - Elas são conhecidas como variáveis globais e podem ser utilizadas por qualquer função, independentemente de sua localização no código.
+   - As variáveis globais são declaradas fora de qualquer função ou bloco de código específico e são visíveis para todas as funções do programa.
+   - As variáveis globais são úteis para armazenar dados que precisam ser compartilhados e acessíveis por várias partes do programa.
+   - No entanto, o uso excessivo de variáveis globais pode dificultar o rastreamento de erros e a manutenção do código, já que qualquer função pode alterar o valor dessas variáveis.
+   ````python
+   contador = 0  # Variável global
+
+   def incrementar():
+       global contador
+       contador += 1
+
+   def exibir_contador():
+       print("Contador:", contador)
+
+   incrementar()
+   exibir_contador()
+   # Saída: Contador: 1
+
+   incrementar()
+   exibir_contador()
+   # Saída: Contador: 2
+   ````
+Neste exemplo, a variável contador é uma variável global que pode ser acessada e modificada por qualquer função no programa. Usamos a palavra-chave global dentro da função incrementar() para indicar que queremos modificar a variável global contador. Em seguida, podemos chamar a função exibir_contador() para mostrar o valor atual do contador.
+
+Esses exemplos ilustram como as variáveis podem ter escopo local ou global em Python e como a visibilidade dessas variáveis pode variar dependendo do escopo em que foram declaradas.
+
+É importante entender e gerenciar adequadamente o escopo das variáveis em um programa. O escopo local ajuda a evitar conflitos de nomes e isola variáveis específicas dentro de funções, enquanto o escopo global permite compartilhar informações entre diferentes partes do programa. O uso adequado desses escopos contribui para a modularidade, organização e legibilidade do código.
+
 Aqui estão as diferenças entre função, método, módulo, pacote e API:
 
 * **1. Função:** É um bloco de código que recebe zero ou mais argumentos, realiza uma tarefa específica e pode retornar um valor. As funções são independentes e podem ser chamadas de forma isolada em um programa. Elas ajudam a organizar e reutilizar o código, facilitando a manutenção e a modularidade.
