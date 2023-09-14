@@ -1,11 +1,9 @@
 # CURSO-DE-ALGORITMO
-👨‍⚖️CURSO DE LÓGICA DE PROGRAMAÇÃO COM PYTHON E PORTUGOL.
+👨‍⚖️CURSO DE LÓGICA DE PROGRAMAÇÃO COM PORTUGOL.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO-COMPRETO-03A9F4?logo=youtube)](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV) <br>
-
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20DOCUMENTAÇÃO-PYTHON-03A9F4?logo=google)](https://docs.python.org/3/)
-[![GitHub Repo stars](https://img.shields.io/badge/CONHEÇA%20PORTUGOL-STUDIO-03A9F4?logo=google)](http://lite.acad.univali.br/portugol/)
+[![GitHub Repo stars](https://img.shields.io/badge/CURSO-COMPRETO-03A9F4?logo=youtube)](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
+[![GitHub Repo stars](https://img.shields.io/badge/CONHEÇA%20PORTUGOL-STUDIO-03A9F4?logo=google)](http://lite.acad.univali.br/portugol/) <br>
 
 <img src="https://cdn-icons-png.flaticon.com/256/9670/9670741.png" align="center" width="250"> <br>
 
