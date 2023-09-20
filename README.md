@@ -18,6 +18,10 @@
 * ✅ VETORES (VARIAVEIS COMPOSTAS 1)
 * ✅ MATRIZES (VARIAVEIS COMPOSTAS 2)
 
+## 💌VIDEOS DO YOUTUBE:
+* [COMANDOS DE ENTRADA COM VISUAL G  (PORTUGOL)](https://youtu.be/_WzHxvgX8qU?si=l-HA5_g-63uPrr_t)
+* [USANDO O SCRATCH](https://youtu.be/e6ljmM3hR8w?si=g8PIjNaPdJbnH5DL)
+
 ![](https://i.imgur.com/waxVImv.png)
 # 📚SE APROFUDANDO MAIS:
 Estudar lógica de programação é fundamental para entender e dominar qualquer linguagem de programação. A lógica de programação é a base que permite a construção de algoritmos e soluções eficientes para os problemas.
