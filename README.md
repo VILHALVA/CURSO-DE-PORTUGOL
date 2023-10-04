@@ -1,4 +1,4 @@
-# CURSO-DE-PORTUGOL
+# CURSO DE PORTUGOL
 👨‍⚖️PORTUGOL É UMA PSEUDOLIGUAGEM CRIADA APENAS PARA APRENDIZADO DE ALGORITMOS.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
