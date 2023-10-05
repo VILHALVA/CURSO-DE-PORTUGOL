@@ -11,6 +11,7 @@
 ![](https://i.imgur.com/waxVImv.png)
 
 # 📚SE APROFUDANDO MAIS:
+## LÓGICA É IMPORTANTE:
 Estudar lógica de programação é fundamental para entender e dominar qualquer linguagem de programação. A lógica de programação é a base que permite a construção de algoritmos e soluções eficientes para os problemas.
 
 Independentemente da linguagem de programação específica que você esteja aprendendo, os conceitos da lógica de programação serão aplicáveis. Ela envolve a compreensão de estruturas de controle, estruturas de repetição, manipulação de variáveis, operadores lógicos, entre outros elementos fundamentais para a construção de algoritmos.
@@ -21,7 +22,6 @@ Além disso, ao entender esses conceitos, você poderá aplicá-los em diferente
 
 Portanto, estudar lógica de programação é um investimento valioso para qualquer aspirante a programador. Independentemente da linguagem de programação escolhida, a lógica de programação é o alicerce sobre o qual você construirá suas habilidades de programação e poderá aplicá-las de maneira eficiente e efetiva.
 
-# ( 0 ) FUNDAMENTOS:
 ## SOBRE AS IDES:
 Os editores de código são ferramentas essenciais para programadores, pois fornecem um ambiente de desenvolvimento para escrever, editar e gerenciar o código fonte de um programa. Embora os editores de código tenham várias funcionalidades, uma de suas principais funções é auxiliar na compilação da linguagem de programação em código binário.
 
@@ -83,6 +83,7 @@ Lembre-se de que programar em um celular pode ser um pouco desafiador devido ao 
 
 Além do Replit, existem outras IDEs online populares, como o [CodePen](https://codepen.io/) para desenvolvimento web (HTML, CSS, JavaScript) e o [Jupyter Notebook](https://jupyter.org/try) para Python e análise de dados. Escolha a que melhor atenda às suas necessidades e preferências de linguagem de programação.
 
+# ( 0 ) FUNDAMENTOS:
 ## ( 0.1 ) OPERADOR ARITMÉTICO:
 Os operadores em linguagens de programação são símbolos especiais ou palavras-chave que executam operações em valores ou variáveis. Eles permitem manipular e combinar dados para realizar cálculos, comparações e outras operações.
 
@@ -1635,7 +1636,7 @@ Neste exemplo, a classe `Calculadora` possui dois métodos `somar()`: um para so
 
 Esses são exemplos básicos dos dois tipos de polimorfismo em POO. O polimorfismo permite escrever código mais flexível, reutilizável e extensível, aumentando a modularidade e a capacidade de manutenção do sistema.
 
-# 🙄E TEM MUITO MAIS:
+# ( 07 ) E TEM MUITO MAIS:
 Você acha que sabe o suficiente? Está totalmente enganado! Uma linguagem de programação é apenas uma das ferramentas em seu kit de desenvolvimento. Para criar e gerenciar com sucesso projetos de software complexos e grandes, é essencial entender que a programação é parte de um ecossistema muito maior. Vamos explorar os principais elementos desse ecossistema:
 
 1. **Linguagem de Programação**:
