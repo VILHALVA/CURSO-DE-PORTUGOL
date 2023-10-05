@@ -22,6 +22,7 @@ Além disso, ao entender esses conceitos, você poderá aplicá-los em diferente
 Portanto, estudar lógica de programação é um investimento valioso para qualquer aspirante a programador. Independentemente da linguagem de programação escolhida, a lógica de programação é o alicerce sobre o qual você construirá suas habilidades de programação e poderá aplicá-las de maneira eficiente e efetiva.
 
 # ( 0 ) FUNDAMENTOS:
+## SOBRE AS IDES:
 Os editores de código são ferramentas essenciais para programadores, pois fornecem um ambiente de desenvolvimento para escrever, editar e gerenciar o código fonte de um programa. Embora os editores de código tenham várias funcionalidades, uma de suas principais funções é auxiliar na compilação da linguagem de programação em código binário.
 
 Quando escrevemos código em uma linguagem de programação, como Java, Python, C++ ou qualquer outra, o código é escrito em uma forma legível para os seres humanos, chamada de código fonte. No entanto, os computadores não podem executar diretamente o código fonte. Eles precisam do código binário, que é uma sequência de instruções em linguagem de máquina compreensível para o hardware do computador.
@@ -48,7 +49,39 @@ Aqui estão os passos gerais para instalar uma linguagem de programação em sua
 
 Lembre-se de que esses são passos gerais e podem variar dependendo da linguagem de programação específica e do sistema operacional que você está usando. Sempre consulte a documentação oficial da linguagem para obter instruções detalhadas e atualizadas sobre como instalar a linguagem em sua máquina.
 
-Sabendo de tudo isso, vamos falar agora dos operadores e tipos primitivos:
+## É POSSIVEL PROGRAMAR PELO CELULAR:
+Sim. É possível programar usando apenas um celular, desde que você tenha acesso à internet e utilize IDEs online. As IDEs online são plataformas que permitem escrever, testar e executar código diretamente no navegador do seu celular. Aqui estão os passos para programar usando um celular e IDEs online como o Replit:
+
+1. **Escolha uma IDE Online**:
+   - Existem várias IDEs online disponíveis que suportam uma variedade de linguagens de programação. Uma das opções populares é o [Replit](https://replit.com/). Abra o navegador do seu celular e acesse o site da IDE online de sua escolha.
+
+2. **Crie uma Conta (Opcional)**:
+   - Alguns serviços de IDE online, como o Replit, permitem que você crie uma conta gratuita. Isso pode ser útil para salvar seu código e projetos na nuvem.
+
+3. **Escolha uma Linguagem de Programação**:
+   - A maioria das IDEs online oferece suporte a várias linguagens de programação. Escolha a linguagem com a qual você deseja trabalhar. Por exemplo, você pode escolher Python, JavaScript, C++, etc.
+
+4. **Crie um Novo Projeto**:
+   - Na IDE online, crie um novo projeto ou arquivo, dependendo da linguagem que você escolheu. Isso criará um ambiente de desenvolvimento para você começar a escrever código.
+
+5. **Escreva e Edite o Código**:
+   - Use o teclado virtual ou físico do seu celular para escrever e editar o código. A interface da IDE online geralmente possui um editor de código, onde você pode inserir seu código-fonte.
+
+6. **Teste e Execute o Código**:
+   - A maioria das IDEs online permite que você execute o código diretamente no navegador. Basta pressionar o botão de execução (geralmente representado por um triângulo ou "Run") para testar o seu código e ver os resultados.
+
+7. **Depuração e Visualização de Saída**:
+   - Utilize as ferramentas de depuração oferecidas pela IDE online para identificar e corrigir erros no seu código. Além disso, a saída do seu programa geralmente é exibida na mesma interface, facilitando a visualização dos resultados.
+
+8. **Salve e Compartilhe Seu Projeto**:
+   - Se você tiver uma conta na IDE online, poderá salvar seu projeto na nuvem para acessá-lo de qualquer lugar. Além disso, muitas IDEs online permitem que você compartilhe seu código com outras pessoas, fornecendo um link para o projeto.
+
+9. **Aprenda e Explore Recursos Adicionais**:
+   - Explore os recursos adicionais da IDE online, como documentação, bibliotecas, exemplos e tutoriais, para aprimorar suas habilidades de programação.
+
+Lembre-se de que programar em um celular pode ser um pouco desafiador devido ao tamanho da tela e ao teclado virtual, mas é completamente viável. À medida que você se familiariza com a IDE online de sua escolha e ganha experiência, a programação no celular se tornará mais fácil e eficiente.
+
+Além do Replit, existem outras IDEs online populares, como o [CodePen](https://codepen.io/) para desenvolvimento web (HTML, CSS, JavaScript) e o [Jupyter Notebook](https://jupyter.org/try) para Python e análise de dados. Escolha a que melhor atenda às suas necessidades e preferências de linguagem de programação.
 
 ## ( 0.1 ) OPERADOR ARITMÉTICO:
 Os operadores em linguagens de programação são símbolos especiais ou palavras-chave que executam operações em valores ou variáveis. Eles permitem manipular e combinar dados para realizar cálculos, comparações e outras operações.
