@@ -1648,7 +1648,7 @@ Neste exemplo, a classe `Calculadora` possui dois métodos `somar()`: um para so
 
 Esses são exemplos básicos dos dois tipos de polimorfismo em POO. O polimorfismo permite escrever código mais flexível, reutilizável e extensível, aumentando a modularidade e a capacidade de manutenção do sistema.
 
-# ( 07 ) E TEM MUITO MAIS:
+# ( 7 ) E TEM MUITO MAIS:
 Você acha que sabe o suficiente? Está totalmente enganado! Uma linguagem de programação é apenas uma das ferramentas em seu kit de desenvolvimento. Para criar e gerenciar com sucesso projetos de software complexos e grandes, é essencial entender que a programação é parte de um ecossistema muito maior. Vamos explorar os principais elementos desse ecossistema:
 
 1. **Linguagem de Programação**:
