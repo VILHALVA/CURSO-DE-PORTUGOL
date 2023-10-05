@@ -19,7 +19,7 @@
 * [( 4 ) VARIÁVEIS COMPOSTAS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-4--vari%C3%A1veis-compostas)
 * [( 5 ) FUNÇÕES](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-5--fun%C3%A7%C3%B5es)
 * [( 6 ) CLASS POO](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-6--class-poo)
-* [( 7 ) E TEM MUITO MAIS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-07--e-tem-muito-mais)
+* [( 7 ) E TEM MUITO MAIS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-7--e-tem-muito-mais)
 * [CONCLUSÃO FINAL](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#conclus%C3%A3o-final)
 
 # 📚SE APROFUDANDO MAIS:
