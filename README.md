@@ -10,6 +10,18 @@
 
 ![](https://i.imgur.com/waxVImv.png)
 
+# INDICE:
+* [SE APROFUDANDO MAIS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#se-aprofudando-mais)
+* [( 0 ) FUNDAMENTOS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-0--fundamentos)
+* [( 1 ) VARIÁVEIS SIMPLES](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-1--vari%C3%A1veis-simples)
+* [( 2 ) ESTRUTURA CONDICIONAL](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-2--estrutura-condicional)
+* [( 3 ) ESTRUTURA DE REPETIÇÃO](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-3--estrutura-de-repeti%C3%A7%C3%A3o)
+* [( 4 ) VARIÁVEIS COMPOSTAS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-4--vari%C3%A1veis-compostas)
+* [( 5 ) FUNÇÕES](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-5--fun%C3%A7%C3%B5es)
+* [( 6 ) CLASS POO](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-6--class-poo)
+* [( 07 ) E TEM MUITO MAIS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL/blob/main/README.md#-07--e-tem-muito-mais)
+* [CONCLUSÃO FINAL](https://github.com/VILHALVA/CURSO-DE-PORTUGOL/blob/main/README.md#conclus%C3%A3o-final)
+
 # 📚SE APROFUDANDO MAIS:
 ## LÓGICA É IMPORTANTE:
 Estudar lógica de programação é fundamental para entender e dominar qualquer linguagem de programação. A lógica de programação é a base que permite a construção de algoritmos e soluções eficientes para os problemas.
