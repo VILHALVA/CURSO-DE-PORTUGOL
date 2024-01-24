@@ -10,8 +10,8 @@
 
 # INDICE:
 * [SE APROFUDANDO MAIS](./README.md#se-aprofudando-mais)
-* [( 0 ) FUNDAMENTOS](./README.md#0-fundamentos)
-* [( 1 ) VARIÁVEIS SIMPLES](./README.md#1--vari%C3%A1veis-simples)
+* [( 0 ) FUNDAMENTOS](./README.md#-0-fundamentos)
+* [( 1 ) VARIÁVEIS SIMPLES](./README.md#-1--vari%C3%A1veis-simples)
 * [( 2 ) ESTRUTURA CONDICIONAL](./README.md#2--estrutura-condicional)
 * [( 3 ) ESTRUTURA DE REPETIÇÃO](./README.md#3--estrutura-de-repeti%C3%A7%C3%A3o)
 * [( 4 ) VARIÁVEIS COMPOSTAS](./README.md#4--vari%C3%A1veis-compostas)
