@@ -1,8 +1,7 @@
 # CURSO DE PORTUGOL
 👨‍⚖️PORTUGOL É UMA PSEUDOLIGUAGEM CRIADA APENAS PARA APRENDIZADO DE ALGORITMOS.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=portugol) <br>
+[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
 
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
 
@@ -11,7 +10,7 @@
 ![](https://i.imgur.com/waxVImv.png)
 
 # INDICE:
-* [SE APROFUDANDO MAIS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#se-aprofudando-mais)
+* [SE APROFUDANDO MAIS](./README.md#se-aprofudando-mais)
 * [( 0 ) FUNDAMENTOS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-0--fundamentos)
 * [( 1 ) VARIÁVEIS SIMPLES](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-1--vari%C3%A1veis-simples)
 * [( 2 ) ESTRUTURA CONDICIONAL](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-2--estrutura-condicional)
