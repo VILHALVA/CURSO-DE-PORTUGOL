@@ -2,7 +2,6 @@
 👨‍⚖️PORTUGOL É UMA PSEUDOLIGUAGEM CRIADA APENAS PARA APRENDIZADO DE ALGORITMOS.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
-
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
 
 <img src="https://cdn-icons-png.flaticon.com/256/9670/9670741.png" align="center" width="250"> <br>
@@ -11,15 +10,15 @@
 
 # INDICE:
 * [SE APROFUDANDO MAIS](./README.md#se-aprofudando-mais)
-* [( 0 ) FUNDAMENTOS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-0--fundamentos)
-* [( 1 ) VARIÁVEIS SIMPLES](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-1--vari%C3%A1veis-simples)
-* [( 2 ) ESTRUTURA CONDICIONAL](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-2--estrutura-condicional)
-* [( 3 ) ESTRUTURA DE REPETIÇÃO](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-3--estrutura-de-repeti%C3%A7%C3%A3o)
-* [( 4 ) VARIÁVEIS COMPOSTAS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-4--vari%C3%A1veis-compostas)
-* [( 5 ) FUNÇÕES](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-5--fun%C3%A7%C3%B5es)
-* [( 6 ) CLASS POO](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-6--class-poo)
-* [( 7 ) E TEM MUITO MAIS](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#-7--e-tem-muito-mais)
-* [CONCLUSÃO FINAL](https://github.com/VILHALVA/CURSO-DE-PORTUGOL#conclus%C3%A3o-final)
+* [( 0 ) FUNDAMENTOS](./README.md#0--fundamentos)
+* [( 1 ) VARIÁVEIS SIMPLES](./README.md#1--vari%C3%A1veis-simples)
+* [( 2 ) ESTRUTURA CONDICIONAL](./README.md#2--estrutura-condicional)
+* [( 3 ) ESTRUTURA DE REPETIÇÃO](./README.md#3--estrutura-de-repeti%C3%A7%C3%A3o)
+* [( 4 ) VARIÁVEIS COMPOSTAS](./README.md#4--vari%C3%A1veis-compostas)
+* [( 5 ) FUNÇÕES](./README.md#5--fun%C3%A7%C3%B5es)
+* [( 6 ) CLASS POO](./README.md#6--class-poo)
+* [( 7 ) E TEM MUITO MAIS](./README.md#7--e-tem-muito-mais)
+* [CONCLUSÃO FINAL](./README.md#conclus%C3%A3o-final)
 
 # 📚SE APROFUDANDO MAIS:
 ## LÓGICA É IMPORTANTE:
