@@ -18,7 +18,7 @@
 * [( 5 ) FUNÇÕES](./README.md#-5--fun%C3%A7%C3%B5es)
 * [( 6 ) CLASS POO](./README.md#-6--class-poo)
 * [( 7 ) E TEM MUITO MAIS](./README.md#-7--e-tem-muito-mais)
-* [CONCLUSÃO FINAL](./README.md#-conclus%C3%A3o-final)
+* [CONCLUSÃO FINAL](./README.md#conclus%C3%A3o-final)
 
 # 📚SE APROFUDANDO MAIS:
 ## LÓGICA É IMPORTANTE:
