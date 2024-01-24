@@ -4,10 +4,6 @@
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
 
-<img src="https://cdn-icons-png.flaticon.com/256/9670/9670741.png" align="center" width="250"> <br>
-
-![](https://i.imgur.com/waxVImv.png)
-
 # INDICE:
 * [SE APROFUDANDO MAIS](./README.md#se-aprofudando-mais)
 * [( 0 ) FUNDAMENTOS](./README.md#-0--fundamentos)
