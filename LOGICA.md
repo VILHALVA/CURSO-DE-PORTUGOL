@@ -1,6 +1,6 @@
 # SE APROFUDANDO MAIS
 ## INDICE:
-* [SE APROFUDANDO MAIS](./LOGICA.md#se-aprofudando-mais)
+* [INTRODUÇÃO](./LOGICA.md#introducao)
 * [( 0 ) FUNDAMENTOS](./LOGICA.md#-0--fundamentos)
 * [( 1 ) VARIÁVEIS SIMPLES](./LOGICA.md#-1--vari%C3%A1veis-simples)
 * [( 2 ) ESTRUTURA CONDICIONAL](./LOGICA.md#-2--estrutura-condicional)
@@ -11,6 +11,7 @@
 * [( 7 ) E TEM MUITO MAIS](./LOGICA.md#-7--e-tem-muito-mais)
 * [CONCLUSÃO FINAL](./LOGICA.md#conclus%C3%A3o-final)
 
+# INTRODUCAO
 ## LÓGICA É IMPORTANTE:
 Estudar lógica de programação é fundamental para entender e dominar qualquer linguagem de programação. A lógica de programação é a base que permite a construção de algoritmos e soluções eficientes para os problemas.
 
@@ -1720,4 +1721,4 @@ Como mencionado anteriormente, sua jornada no mundo da programação está apena
 10. **Crie uma Rede Profissional**:
     - Construa relacionamentos com outros profissionais de tecnologia. Uma rede forte pode abrir portas para oportunidades de emprego e colaborações.
 
-Lembre-se de que o aprendizado contínuo é essencial na programação, pois novas tecnologias e ferramentas estão sempre surgindo. Sua jornada é única, e você pode adaptá-la às suas metas e interesses específicos. Aproveite a jornada de aprendizado e continue a se desafiar e crescer como desenvolvedor. [CLIQUE AQUI PARA CONTINUAR A FAZER NOSSOS CURSOS](https://github.com/VILHALVA?tab=repositories&q=CURSO&type=&language=&sort=). Há muito mais para aprender e explorar!
+Lembre-se de que o aprendizado contínuo é essencial na programação, pois novas tecnologias e ferramentas estão sempre surgindo. Sua jornada é única, e você pode adaptá-la às suas metas e interesses específicos. Aproveite a jornada de aprendizado e continue a se desafiar e crescer como desenvolvedor. [CLIQUE AQUI PARA CONTINUAR A FAZER NOSSOS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO). [CLIQUE AQUI PARA CONTINUAR A FAZER NOSSOS MINI-CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:MINI-CURSO). [CLIQUE AQUI PARA VER MEUS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=+topic:PROJETO). Há muito mais para aprender e explorar!
