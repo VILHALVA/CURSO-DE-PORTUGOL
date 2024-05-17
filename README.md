@@ -96,5 +96,4 @@ Além disso, ela é frequentemente utilizado em ambientes de aprendizado como um
 - [VEJA A DOCUMENTAÇÃO](https://pt.slideshare.net/GabrielFaustino/manual-de-portugol)
 - [VEJA A LÓGICA DE PROGRAMAÇÃO](./LOGICA.md)
 - [VEJA A VERSÃO EM PYTHON](https://github.com/VILHALVA/CURSO-DE-LOGICA-COM-PYTHON)
-- [FAÇA O CURSO DE LINGUAGENS](https://github.com/VILHALVA/CURSO-DE-LINGUAGENS)
 
