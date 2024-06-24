@@ -94,6 +94,7 @@ Além disso, ela é frequentemente utilizado em ambientes de aprendizado como um
 - [CURSO CRIADO PELO "CURSO EM VIDEO"](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://pt.slideshare.net/GabrielFaustino/manual-de-portugol)
+- [VEJA O MANUAL](./MANUAL.md)
 - [VEJA A LÓGICA DE PROGRAMAÇÃO](./LOGICA.md)
 - [VEJA A VERSÃO EM PYTHON](https://github.com/VILHALVA/CURSO-DE-LOGICA-COM-PYTHON)
-
+- [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=+topic:PORTUGOL)
