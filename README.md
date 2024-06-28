@@ -3,6 +3,28 @@
 
 <img src="FOTO.png" align="center" width="400"> <br>
 
+## VISÃO PANORÂMICA:
+| PERGUNTA | RESPOSTA |
+| :---: | :---: |
+| DATA DE CRIAÇÃO | Desconhecida (Desenvolvida inicialmente no Brasil) |
+| NOME DO CRIADOR | Comunidade Acadêmica Brasileira |
+| SIGNIFICADO DO NOME | Portugol é uma linguagem de programação didática baseada na linguagem natural portuguesa |
+| É BASEADA NO | Pseudocódigo |
+| EXTENSÃO DO ARQUIVO | .por |
+| É MAIS USADA | Ensino de lógica de programação |
+
+Portugol é uma linguagem de programação criada com fins didáticos, visando facilitar o aprendizado de lógica de programação e algoritmos. É amplamente utilizada em ambientes acadêmicos, especialmente no Brasil, por sua simplicidade e por ser escrita em português, o que a torna acessível a iniciantes.
+
+Portugol é frequentemente usada para:
+
+* **1 - Ensino de lógica de programação:** Portugol é ideal para iniciantes, pois permite que os estudantes compreendam os fundamentos da programação sem a complexidade de uma linguagem de sintaxe mais rígida.
+* **2 - Desenvolvimento de algoritmos:** A linguagem é utilizada para escrever e testar algoritmos, ajudando os alunos a desenvolver habilidades de resolução de problemas.
+* **3 - Prática de estruturas de controle:** Portugol permite que os alunos pratiquem estruturas de controle como loops, condicionais e funções, que são essenciais em qualquer linguagem de programação.
+* **4 - Criação de programas simples:** Apesar de ser uma linguagem didática, Portugol pode ser usada para criar pequenos programas que ajudam a consolidar o conhecimento em programação.
+* **5 - Transição para outras linguagens:** O conhecimento adquirido com Portugol serve como base para aprender outras linguagens de programação, facilitando a transição para linguagens mais complexas.
+
+Em resumo, Portugol é uma ferramenta poderosa no ensino de programação, proporcionando uma forma intuitiva e acessível de entender os conceitos fundamentais da programação e algoritmos.
+
 ## CONCEITO:
 Portugol é uma pseudolinguagem de programação educacional e introdutória, projetada para ajudar iniciantes a aprenderem os conceitos básicos de programação de computadores. Seu nome deriva de "Português Estruturado" e é baseado na sintaxe da linguagem portuguesa, facilitando a compreensão para pessoas que falam português.
 
@@ -95,6 +117,7 @@ Além disso, ela é frequentemente utilizado em ambientes de aprendizado como um
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://pt.slideshare.net/GabrielFaustino/manual-de-portugol)
 - [VEJA O MANUAL](./MANUAL.md)
+- [VEJA A SINTAXE](./SINTAXE.md)
 - [VEJA A LÓGICA DE PROGRAMAÇÃO](./LOGICA.md)
 - [VEJA A VERSÃO EM PYTHON](https://github.com/VILHALVA/CURSO-DE-LOGICA-COM-PYTHON)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=+topic:PORTUGOL)
