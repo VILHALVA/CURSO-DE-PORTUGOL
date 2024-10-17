@@ -119,5 +119,4 @@ Além disso, ela é frequentemente utilizado em ambientes de aprendizado como um
 - [VEJA O MANUAL](./MANUAL.md)
 - [VEJA A SINTAXE](./SINTAXE.md)
 - [VEJA A LÓGICA DE PROGRAMAÇÃO](./LOGICA.md)
-- [VEJA A VERSÃO EM PYTHON](https://github.com/VILHALVA/CURSO-DE-LOGICA-COM-PYTHON)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=+topic:PORTUGOL)
